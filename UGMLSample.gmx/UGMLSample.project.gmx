@@ -42,6 +42,7 @@
         <script>scripts\INDEX_OF.gml</script>
         <script>scripts\ENCODE_URL.gml</script>
         <script>scripts\ENCRYPT.gml</script>
+        <script>scripts\UUID.gml</script>
       </scripts>
       <scripts name="FIX">
         <script>scripts\MAKE_BLEND_COLOR_FOR_SPINE.gml</script>
@@ -52,6 +53,7 @@
       <script>scripts\LOG.gml</script>
       <script>scripts\LOG_MAP.gml</script>
       <script>scripts\RANDOM_BETWEEN.gml</script>
+      <script>scripts\DECIMAL_TO_HEX.gml</script>
       <script>scripts\ds_map_list_destroy.gml</script>
     </scripts>
   </scripts>
