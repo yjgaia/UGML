@@ -1,4 +1,4 @@
-/// STR_LENGTH_UNICODE_COUNT_2(str)
+/// STR_LENGTH_UNICODE_COUNT_2(string)
 
 // params
 var str = argument0;

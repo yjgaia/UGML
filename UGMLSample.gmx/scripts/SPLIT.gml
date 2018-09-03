@@ -1,4 +1,4 @@
-/// SPLIT(str, separator)
+/// SPLIT(string, separator)
 
 // params
 var str = argument0;

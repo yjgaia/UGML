@@ -1,4 +1,4 @@
-/// INDEX_OF(str, substr)
+/// INDEX_OF(string, substr)
 
 // params
 var str = argument0;

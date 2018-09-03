@@ -50,14 +50,14 @@
       </scripts>
       <scripts name="FIX">
         <script>scripts\MAKE_BLEND_COLOR_FOR_SPINE.gml</script>
-        <script>scripts\CLEAR_AND_GOTO_ROOM.gml</script>
       </scripts>
       <script>scripts\TERNARY.gml</script>
-      <script>scripts\TIME_TO_JS_TIME.gml</script>
+      <script>scripts\RANDOM_BETWEEN.gml</script>
       <script>scripts\LOG.gml</script>
       <script>scripts\LOG_MAP.gml</script>
-      <script>scripts\RANDOM_BETWEEN.gml</script>
       <script>scripts\DECIMAL_TO_HEX.gml</script>
+      <script>scripts\TIME_TO_JS_TIME.gml</script>
+      <script>scripts\CLEAR_AND_GOTO_ROOM.gml</script>
       <script>scripts\ds_map_list_destroy.gml</script>
     </scripts>
   </scripts>
