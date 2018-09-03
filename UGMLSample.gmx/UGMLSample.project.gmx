@@ -44,6 +44,10 @@
         <script>scripts\ENCRYPT.gml</script>
         <script>scripts\UUID.gml</script>
       </scripts>
+      <scripts name="ENCRYPTION_REQUEST">
+        <script>scripts\ENCRYPTION_GET.gml</script>
+        <script>scripts\ENCRYPTION_POST.gml</script>
+      </scripts>
       <scripts name="FIX">
         <script>scripts\MAKE_BLEND_COLOR_FOR_SPINE.gml</script>
         <script>scripts\CLEAR_AND_GOTO_ROOM.gml</script>
@@ -57,6 +61,9 @@
       <script>scripts\ds_map_list_destroy.gml</script>
     </scripts>
   </scripts>
+  <objects name="objects">
+    <object>objects\object0</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>

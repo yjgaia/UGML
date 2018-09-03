@@ -1,20 +1,37 @@
 /// UUID()
 
-/*var d = current_time + epoch() * 10000,
-    uuid = array_create(32),
-    i = 0,
-    r;
+var uuid = '';
 
-for (i = 0; i < array_length_1d(uuid); ++i) {
-    r = floor((d + random(1) * 16)) mod 16;
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
 
-    if (i == 16) {
-        uuid[i] = dec_to_hex(r & $3 | $8);
-    } else {
-        uuid[i] = dec_to_hex(r);
-    }
-}
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
 
-uuid[12] = '4';
+uuid += '-';
 
-return uuid_array_implode(uuid);*/
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+uuid += '-';
+
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+uuid += '-';
+
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+uuid += '-';
+
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+hex = DECIMAL_TO_HEX(floor((1 + random(1)) * 65536));
+uuid += string_lower(SUB_STR(hex, 2, string_length(hex)));
+
+return SUB_STR(uuid, 0, 14) + '4' + SUB_STR(uuid, 15, string_length(uuid));
