@@ -3,7 +3,7 @@
   <name>UGML</name>
   <version>1.0.0</version>
   <packageID></packageID>
-  <ProductID></ProductID>
+  <ProductID>ACBD3CFF4E539AD869A0E8E3B4B022DD</ProductID>
   <date>08/04/16</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -27,33 +27,37 @@
   <iosThirdPartyFrameworks/>
   <androidPermissions/>
   <IncludedResources>
-    <Resource>Scripts\UGML\LIST\CHECK_IS_IN_LIST</Resource>
-    <Resource>Scripts\UGML\LIST\REMOVE_VALUE_IN_LIST</Resource>
-    <Resource>Scripts\UGML\MAP\COPY_MAP</Resource>
-    <Resource>Scripts\UGML\MAP\REMOVE_VALUE_IN_MAP</Resource>
-    <Resource>Scripts\UGML\MAP\FIND_KEY_IN_MAP</Resource>
-    <Resource>Scripts\UGML\DRAW\DRAW_TEXT_WITH_OUTLINE</Resource>
-    <Resource>Scripts\UGML\STORE\SAVE_DATA</Resource>
-    <Resource>Scripts\UGML\STORE\LOAD_DATA</Resource>
-    <Resource>Scripts\UGML\STORE\REMOVE_DATA</Resource>
-    <Resource>Scripts\UGML\STRING\TRIM_STR</Resource>
-    <Resource>Scripts\UGML\STRING\TRIM_STR_NO_NEW_LINE</Resource>
-    <Resource>Scripts\UGML\STRING\RANDOM_STR</Resource>
-    <Resource>Scripts\UGML\STRING\SUB_STR</Resource>
-    <Resource>Scripts\UGML\STRING\CHAR_AT</Resource>
-    <Resource>Scripts\UGML\STRING\BYTE_AT</Resource>
-    <Resource>Scripts\UGML\STRING\STR_LENGTH_UNICODE_COUNT_2</Resource>
-    <Resource>Scripts\UGML\STRING\SUB_STR_UNICODE_COUNT_2</Resource>
-    <Resource>Scripts\UGML\STRING\SPLIT</Resource>
-    <Resource>Scripts\UGML\STRING\INDEX_OF</Resource>
-    <Resource>Scripts\UGML\STRING\ENCODE_URL</Resource>
-    <Resource>Scripts\UGML\FIX\MAKE_BLEND_COLOR_FOR_SPINE</Resource>
-    <Resource>Scripts\UGML\FIX\CLEAR_AND_GOTO_ROOM</Resource>
+    <Resource>Scripts\UGML\LIST\CHECK_IS_IN_LIST.gml</Resource>
+    <Resource>Scripts\UGML\LIST\REMOVE_VALUE_IN_LIST.gml</Resource>
+    <Resource>Scripts\UGML\MAP\COPY_MAP.gml</Resource>
+    <Resource>Scripts\UGML\MAP\REMOVE_VALUE_IN_MAP.gml</Resource>
+    <Resource>Scripts\UGML\MAP\FIND_KEY_IN_MAP.gml</Resource>
+    <Resource>Scripts\UGML\DRAW\DRAW_TEXT_WITH_OUTLINE.gml</Resource>
+    <Resource>Scripts\UGML\STORE\SAVE_DATA.gml</Resource>
+    <Resource>Scripts\UGML\STORE\LOAD_DATA.gml</Resource>
+    <Resource>Scripts\UGML\STORE\REMOVE_DATA.gml</Resource>
+    <Resource>Scripts\UGML\STRING\TRIM_STR.gml</Resource>
+    <Resource>Scripts\UGML\STRING\TRIM_STR_NO_NEW_LINE.gml</Resource>
+    <Resource>Scripts\UGML\STRING\RANDOM_STR.gml</Resource>
+    <Resource>Scripts\UGML\STRING\SUB_STR.gml</Resource>
+    <Resource>Scripts\UGML\STRING\CHAR_AT.gml</Resource>
+    <Resource>Scripts\UGML\STRING\BYTE_AT.gml</Resource>
+    <Resource>Scripts\UGML\STRING\STR_LENGTH_UNICODE_COUNT_2.gml</Resource>
+    <Resource>Scripts\UGML\STRING\SUB_STR_UNICODE_COUNT_2.gml</Resource>
+    <Resource>Scripts\UGML\STRING\SPLIT.gml</Resource>
+    <Resource>Scripts\UGML\STRING\INDEX_OF.gml</Resource>
+    <Resource>Scripts\UGML\STRING\ENCODE_URL.gml</Resource>
+    <Resource>Scripts\UGML\STRING\ENCRYPT.gml</Resource>
+    <Resource>Scripts\UGML\STRING\UUID.gml</Resource>
+    <Resource>Scripts\UGML\FIX\MAKE_BLEND_COLOR_FOR_SPINE.gml</Resource>
+    <Resource>Scripts\UGML\ENCRYPTION_REQUEST</Resource>
     <Resource>Scripts\UGML\TERNARY</Resource>
-    <Resource>Scripts\UGML\TIME_TO_JS_TIME</Resource>
+    <Resource>Scripts\UGML\RANDOM_BETWEEN</Resource>
     <Resource>Scripts\UGML\LOG</Resource>
     <Resource>Scripts\UGML\LOG_MAP</Resource>
-    <Resource>Scripts\UGML\RANDOM_BETWEEN</Resource>
+    <Resource>Scripts\UGML\DECIMAL_TO_HEX</Resource>
+    <Resource>Scripts\UGML\TIME_TO_JS_TIME</Resource>
+    <Resource>Scripts\UGML\CLEAR_AND_GOTO_ROOM</Resource>
     <Resource>Scripts\UGML\ds_map_list_destroy</Resource>
   </IncludedResources>
   <files/>

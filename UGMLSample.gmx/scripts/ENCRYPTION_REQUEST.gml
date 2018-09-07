@@ -1,4 +1,4 @@
-/// ENCRYPTION_POST(url, params, request_encryption_key)
+/// ENCRYPTION_REQUEST(url, params, request_encryption_key)
 
 // params
 var url = argument0;

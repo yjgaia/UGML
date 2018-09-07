@@ -44,13 +44,10 @@
         <script>scripts\ENCRYPT.gml</script>
         <script>scripts\UUID.gml</script>
       </scripts>
-      <scripts name="ENCRYPTION_REQUEST">
-        <script>scripts\ENCRYPTION_GET.gml</script>
-        <script>scripts\ENCRYPTION_POST.gml</script>
-      </scripts>
       <scripts name="FIX">
         <script>scripts\MAKE_BLEND_COLOR_FOR_SPINE.gml</script>
       </scripts>
+      <script>scripts\ENCRYPTION_REQUEST.gml</script>
       <script>scripts\TERNARY.gml</script>
       <script>scripts\RANDOM_BETWEEN.gml</script>
       <script>scripts\LOG.gml</script>
