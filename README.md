@@ -34,8 +34,7 @@ GML에서 사용할 수 있는 각종 유용한 함수들의 집합
 - `UUID()` [범용 고유 식별자](https://ko.wikipedia.org/wiki/%EB%B2%94%EC%9A%A9_%EA%B3%A0%EC%9C%A0_%EC%8B%9D%EB%B3%84%EC%9E%90)를 생성합니다.
 
 ## 암호화 HTTP 요청 기능
-- `ENCRYPTION_GET(url, params, request_encryption_key)` GET 요청을 암호화하여 전송합니다.
-- `ENCRYPTION_POST(url, params, request_encryption_key)` POST 요청을 암호화하여 전송합니다.
+- `ENCRYPTION_REQUEST(url, params, request_encryption_key)` HTTP 요청을 암호화하여 전송합니다. (POST 방식)
 
 ## 기타 기능
 - `TERNARY(condition, true_value, false_value)` 3항 연산자의 역할을 하는 함수입니다.
